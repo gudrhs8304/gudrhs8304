@@ -2,16 +2,15 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 16 * * *"   # 매일 KST 01:00 (UTC 16:00)
-  workflow_dispatch:        # 수동 실행 허용
+    - cron: "0 16 * * *"     # 매일 KST 01:00 (UTC 16:00)
+  workflow_dispatch:          # 수동 실행 허용
   push:
     paths:
       - .github/workflows/snake.yml
       - README.md
 
-# ⬇️ 이 줄이 중요: output 브랜치에 푸시하려면 write 권한 필요
 permissions:
-  contents: write
+  contents: write             # output 브랜치 푸시에 필요
 
 jobs:
   build:
@@ -25,8 +24,7 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      # (선택) 결과를 아티팩트로도 보관
-      - name: Upload artifact
+      - name: Upload artifact (optional)
         uses: actions/upload-artifact@v4
         with:
           name: dist
@@ -37,5 +35,6 @@ jobs:
         with:
           target_branch: output
           build_dir: dist
+          commit_message: "chore: update snake"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
