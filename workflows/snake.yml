@@ -1,0 +1,29 @@
+name: Generate Snake
+
+on:
+  # 매일 새벽 1시에 갱신 (한국시간 기준 10:00에 맞추려면 cron 조절)
+  schedule:
+    - cron: "0 16 * * *"  # UTC 16:00 = KST 01:00
+  workflow_dispatch:      # 수동 실행 버튼도 제공
+  push:
+    branches: [main]      # README 수정 즉시 한 번 생성
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate snake SVG
+        uses: Platane/snk@v3
+        with:
+          github_user_name: gudrhs8304
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
