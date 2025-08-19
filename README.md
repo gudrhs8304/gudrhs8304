@@ -27,7 +27,7 @@
 - 🎬 **[Ticketory Project](https://github.com/gudrhs8304/ticketory_project)**  
   영화 예매 사이트 (React + Spring Boot + JPA)
 
-- 📔 **[Diary] (https://github.com/gudrhs8304/react_edu_diary_250805)**
+- 📔 **[Diary](https://github.com/gudrhs8304/react_edu_diary_250805)**
   일기장 (React + JavaScript)  
 
 ---
