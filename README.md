@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Kim Hyeonggon
+# 👋 안녕하세요 초보 개발자 김형곤입니다.
 
 🚀 **Backend-oriented Fullstack Developer**  
 💻 Skills: Spring Boot · MyBatis/JPA · MariaDB · React  
