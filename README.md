@@ -16,9 +16,11 @@
 
 ---
 
-## 📊 GitHub Stats
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=gudrhs8304&show_icons=true&theme=radical)  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=gudrhs8304&layout=compact&theme=radical)
+## 🌟 Featured Projects
+- 🎬 **[Ticketory Project](https://github.com/gudrhs8304/ticketory_project)** – 영화 예매 플랫폼, Spring Boot · React · JPA · MariaDB · swaggerUI
+- 🍔 **[Hamburger Kiosk](https://github.com/gudrhs8304/hamburgerKiosk)** – Spring Boot · MyBatis · JPA · MariaDB · Thymeleaf
+- 📔 **[Diary](https://github.com/gudrhs8304/react_edu_diary_250805)** - 일기장 (React + JavaScript)  
+- 🌐 **[Portfolio Website](https://gudrhs8304.github.io)** – GitHub Pages 기반 개인 포트폴리오 사이트
 
 ---
 
@@ -31,11 +33,9 @@
 
 ---
 
-## 🌟 Featured Projects
-- 🎬 **[Ticketory Project](https://github.com/gudrhs8304/ticketory_project)** – 영화 예매 플랫폼, Spring Boot · React · JPA · MariaDB · swaggerUI
-- 🍔 **[Hamburger Kiosk](https://github.com/gudrhs8304/hamburgerKiosk)** – Spring Boot · MyBatis · JPA · MariaDB · Thymeleaf
-- 📔 **[Diary](https://github.com/gudrhs8304/react_edu_diary_250805)** - 일기장 (React + JavaScript)  
-- 🌐 **[Portfolio Website](https://gudrhs8304.github.io)** – GitHub Pages 기반 개인 포트폴리오 사이트
+## 📊 GitHub Stats
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=gudrhs8304&show_icons=true&theme=radical)  
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=gudrhs8304&layout=compact&theme=radical)
 
 ---
 
