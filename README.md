@@ -17,7 +17,7 @@
 ---
 
 ## 🌟 Featured Projects
-- 🎬 **[Ticketory Project](https://github.com/gudrhs8304/ticketory_project)**
+- 🎬 **[Ticketory Project](https://github.com/gudrhs8304/ticketory_project)**\n
   http://211.188.58.155:8080/
   영화 예매 플랫폼, Spring Boot · React · JPA · MariaDB · swaggerUI
 - 🍔 **[Hamburger Kiosk](https://github.com/gudrhs8304/hamburgerKiosk)** – Spring Boot · MyBatis · JPA · MariaDB · Thymeleaf
