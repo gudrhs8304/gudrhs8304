@@ -19,7 +19,8 @@
 ## 🌟 Featured Projects
 - 🎬 **[Ticketory Project](https://github.com/gudrhs8304/ticketory_project)**(http://211.188.58.155:8080/)<br>  영화 예매 플랫폼, Spring Boot · React · JPA · MariaDB · swaggerUI · 네이버클라우드 배포
 - 🍔 **[Hamburger Kiosk](https://github.com/gudrhs8304/hamburgerKiosk)** – Spring Boot · MyBatis · JPA · MariaDB · Thymeleaf
-- 📔 **[Diary](https://github.com/gudrhs8304/react_edu_diary_250805)** - 일기장 (React + JavaScript)  
+- 📔 **[Diary](https://github.com/gudrhs8304/react_edu_diary_250805)** - 일기장 (React + JavaScript)
+- 🚘 **[ParkingSystem](https://github.com/gudrhs8304/koreaitParkingSystem)** - MVC 패턴 · JSP · 관리자 페이지
 - 🌐 **[Portfolio Website](https://gudrhs8304.github.io)** – GitHub Pages 기반 개인 포트폴리오 사이트
 
 ---
